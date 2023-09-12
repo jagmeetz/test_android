@@ -1,9 +1,6 @@
 package com.example.test_android;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
-public class Storyjava {
+public class Basics {
     public static void main(String[] args) {
 //----------------------------------------------
         //output hello world
@@ -19,7 +16,10 @@ public class Storyjava {
 
         //------------------------------------------
         // using class to output employee name , id ,etc
-//        Employee employee1= new Employee("John Smith", 'J',123);
+//        Employee employee1= new Employee("John Smith", "Contractor",123,'J');
+//        System.out.println("hello");
+//        System.out.println(employee1);
+//        System.out.println("world");
 //        System.out.println(employee1.EmployeeName);
 //        System.out.println(employee1.toString());
 

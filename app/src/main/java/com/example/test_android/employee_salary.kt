@@ -1,6 +1,6 @@
 package com.example.test_android
 
-object Driver {
+object Employee_salary {
     @JvmStatic
     fun main(args: Array<String>) {
 
