@@ -2,15 +2,13 @@ package com.example.test_android;
 
 // Create a class called Shape and calculate area using inheritance and polymporphism concepts we learned
 // to calculate the area of Square, Rectangle and Triangle
+
+
 public class Shape {
-
-}
-
-class Area_calculator {
     float firstSide;
     float secondSide;
 
-    Area_calculator(float firstSide, float secondSide) {
+    Shape(float firstSide, float secondSide) {
         this.firstSide = firstSide;
         this.secondSide = secondSide;
     }
@@ -20,7 +18,7 @@ class Area_calculator {
     }
 }
 
-class Square extends Area_calculator {
+class Square extends Shape {
     Square(float side) {
         super(side, side);
     }
@@ -30,7 +28,7 @@ class Square extends Area_calculator {
     }
 }
 
-class Rectangle extends Area_calculator {
+class Rectangle extends Shape {
     Rectangle(float side1, float side2) {
         super(side1, side2);
     }
@@ -41,7 +39,7 @@ class Rectangle extends Area_calculator {
 }
 
 
-class Triangle extends Area_calculator {
+class Triangle extends Shape {
     Triangle(float base, float height) {
         super(base / 2, height);
     }

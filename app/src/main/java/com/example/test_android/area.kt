@@ -3,9 +3,9 @@ package com.example.test_android
 object Area {
     @JvmStatic
     fun main(args: Array<String>) {
-        val square: Area_calculator = Square(5f)
-        val rectangle: Area_calculator = Rectangle(5f, 2f)
-        val triangle: Area_calculator = Triangle(5f, 4f)
+        val square: Shape = Square(5f)
+        val rectangle: Shape = Rectangle(5f, 2f)
+        val triangle: Shape = Triangle(5f, 4f)
 
 //        println(square.area_calc())
 //        println(rectangle.area_calc())
