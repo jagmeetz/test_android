@@ -116,7 +116,6 @@ public class Basics {
 //    }
 //}
 
-
 // class with encapsulation , abstraction
 class Employee {
     //data

@@ -9,8 +9,8 @@ object Employee_salary {
         // 2. Full Time
         // 3. Intern
         val employee1: Employee = Contractor("John", "Contractor", 123, 'J')
-        val employee2: Employee = Intern("Smith", "Full Time", 456, 'S')
-        val employee3: Employee = FullTime("Sara", "Intern", 789, 'S')
+        val employee2: Employee = FullTime("Smith", "Full Time", 456, 'S')
+        val employee3: Employee = Intern("Sara", "Intern", 789, 'S')
         //---------------operations to learn concepts of encapsulation and abstraction
 
         // can be accessed using . operator as variable is protected and can be accessed in the folder(package)
@@ -20,7 +20,7 @@ object Employee_salary {
 
         println(employee1.EmployeeName) // will run
         //println(employee1.employeeId) // will not run
-        // employeeId and employeetype cannot be editted directly as they are private , to print them or edit them getter or setter is required
+        // employeeId and employee type cannot be edited directly as they are private , to print them or edit them getter or setter is required
 
         // this wil print as we are getting from getter function, also you can see the statement after . operator is in italics to signify it is coming from a function
         println(employee1.employeetype)
@@ -30,7 +30,7 @@ object Employee_salary {
         // changed value of employeeId using a setter
         employee1.setEmployeeId(3599)
         employee3.setEmployeeId(2266)
-        // Note :: for variables like example -password, to protect them , we will never make a getter, also will keep the varibale private , in this way there will be no chance of password getting fetched
+        // Note :: for variables like example -password, to protect them , we will never make a getter, also will keep the variable private , in this way there will be no chance of password getting fetched
         //---------------operations to learn concepts of encapsulation and abstraction
 
         // print employee1
